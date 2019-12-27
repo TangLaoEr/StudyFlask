@@ -13,6 +13,7 @@ class MyConverter(BaseConverter):
 	# args 接收传入的参数
 	def __init__(self, url_map,  *args):
 		super(MyConverter, self).__init__(url_map)
+		# 参数
 		self.regex = args[0]
 
 app.url_map.converters['re'] = MyConverter
