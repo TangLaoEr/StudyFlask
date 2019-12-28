@@ -23,10 +23,20 @@ def login():
 	# 生成一个响应的函数
 	response = make_response('success')
 	response.set_cookie('user_id', '1', max_age=3600)  # 秒为单位
-	response.set_cookie('user_name', 'laowang')
+	response.set_cookie('user_name', 'laowang', max_age=3600)
 	return response
 
+@app.route('/logout')
+def logout():
+	"""注销"""
+	# 清除所有会话
+	# request.cookies.clear()
 
+	response = make_response('success')
+	# 删除cookie, 把过期时间调到1970年而已
+	response.delete_cookie('user_id')
+	response.delete_cookie('user_name')
+	return response
 
 @app.route('/')
 def index():
