@@ -1,7 +1,7 @@
 """
 session 依赖cookie
 """
-from flask import Flask, session
+from flask import Flask, session, request
 
 """
 每次重新设置的session加密后产生不一样的session字符串序列。
@@ -26,6 +26,9 @@ def login():
 
 @app.route('/logout')
 def logout():
+	"""注销"""
+
+	session.pop('user_id', None)  # 如果不提供None，没有则报错。
 	session.clear()
 	return "logout"
 
