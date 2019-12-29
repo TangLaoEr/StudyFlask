@@ -15,7 +15,7 @@
     <input type="submit">
 </form>
 
-{# 使用宏 #}
+ 使用宏
 {% macro input(label='', type='text', value='', name='') %}
     <label for="">{{ label }}</label><input type="{{ type }}" name="{{ name }}">
 {% endmacro %}
@@ -24,5 +24,15 @@
 {{ input('用户名', name='username') }}
 {{ input('密码', type='password' ,name='password') }}
 {{ input('确认密码', type='password', name='password2') }}
+
+
+{# 导入宏 #}
+{% import 'macro.html' as func %}
+<form action="">
+    {{ func.input('用户名', name='username') }}
+    {{ func.input('密码', type='password' ,name='password') }}
+    {{ func.input('确认密码', type='password', name='password2') }}
+</form>
+
 </body>
 </html>
