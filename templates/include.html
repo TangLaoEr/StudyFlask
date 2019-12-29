@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block contentBlock %}
+{#    如果找不到抛出错误，就用下面这一行 #}
+{#    {% include 'li.html' ignore missing %}#}
+    {% include "li.html" %}
+{% endblock %}
+
