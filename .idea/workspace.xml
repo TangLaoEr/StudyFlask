@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="541d4d96-8b39-4687-a20c-d40c98855840" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo019.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/code.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo019.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo019.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/code.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/code.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,17 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo019.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/flask3/lib/python3.7/site-packages/flask/templating.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="121" column="4" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
+            <state relative-caret-position="262">
+              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -103,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/code.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -195,6 +186,11 @@
             <path>
               <item name="flask学习代码" type="b2602c69:ProjectViewProjectNode" />
               <item name="flask学习代码" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask学习代码" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask学习代码" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flask学习代码" type="b2602c69:ProjectViewProjectNode" />
@@ -402,7 +398,7 @@
       <workItem from="1577347504938" duration="4909000" />
       <workItem from="1577414697536" duration="5925000" />
       <workItem from="1577524625496" duration="5401000" />
-      <workItem from="1577586386264" duration="5973000" />
+      <workItem from="1577586386264" duration="6656000" />
     </task>
     <task id="LOCAL-00001" summary="to_python and to_url">
       <created>1577421718907</created>
@@ -530,11 +526,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577615658316</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="模板代码块">
+      <created>1577616651059</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1577616651059</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26470000" />
+    <option name="totallyTimeSpent" value="27153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -545,13 +548,13 @@
       <window_info id="Favorites" order="2" sideWeight="0.26757368" side_tool="true" weight="0.21243942" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37623763" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37623763" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30551627" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.27864215" />
@@ -620,7 +623,8 @@
     <MESSAGE value="模板 宏的学习" />
     <MESSAGE value="模板继承的学习" />
     <MESSAGE value="模板include" />
-    <option name="LAST_COMMIT_MESSAGE" value="模板include" />
+    <MESSAGE value="模板代码块" />
+    <option name="LAST_COMMIT_MESSAGE" value="模板代码块" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1221,13 +1225,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/code.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/flask3/lib/python3.7/site-packages/flask/templating.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1235,10 +1232,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/code.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo019.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        <state relative-caret-position="262">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
         </state>
       </provider>
     </entry>
