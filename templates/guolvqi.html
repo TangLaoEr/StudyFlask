@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+
+{% block contentBlock %}
+    过滤器传参
+    {{ my_dict_list | sum(attribute='age') }}
+{% endblock %}
