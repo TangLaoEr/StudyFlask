@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block contentBlock %}
+    自定义过滤器
+    {{ my_list | lireverse }}
+    {{ my_list }}
+    <br>
+    第一个方式
+    {{ my_list | lireverse2 }}
+    {{ my_list }}
+{% endblock %}
