@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="541d4d96-8b39-4687-a20c-d40c98855840" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo014.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo015.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,6 +21,7 @@
     <SUITE FILE_PATH="coverage/flask$demo002.coverage" NAME="demo002 Coverage Results" MODIFIED="1577181215449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flask$demo005.coverage" NAME="demo005 Coverage Results" MODIFIED="1577350050096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flask$demo008.coverage" NAME="demo008 Coverage Results" MODIFIED="1577416120612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask$demo015.coverage" NAME="demo015 Coverage Results" MODIFIED="1577589239794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flask$demo006.coverage" NAME="demo006 Coverage Results" MODIFIED="1577352346299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flask$demo007.coverage" NAME="demo007 Coverage Results" MODIFIED="1577414915168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flask$demo012.coverage" NAME="demo012 Coverage Results" MODIFIED="1577528397153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -37,13 +38,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo014.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#52#75#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo015.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <folding>
+                <element signature="e#29#52#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,6 +114,7 @@
         <option value="$PROJECT_DIR$/demo012.py" />
         <option value="$PROJECT_DIR$/demo013.py" />
         <option value="$PROJECT_DIR$/demo014.py" />
+        <option value="$PROJECT_DIR$/demo015.py" />
       </list>
     </option>
   </component>
@@ -157,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.demo014">
+  <component name="RunManager" selected="Python.demo015">
     <configuration name="demo009" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="flask学习代码" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,7 +260,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo014" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo014" type="PythonConfigurationType" factoryName="Python">
       <module name="flask学习代码" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,9 +282,39 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="demo015" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="flask学习代码" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo015.py" />
+      <option name="PARAMETERS" value="runserver -d" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.demo014" />
+      <item itemvalue="Python.demo009" />
+      <item itemvalue="Python.demo011" />
+      <item itemvalue="Python.demo012" />
+      <item itemvalue="Python.demo013" />
+      <item itemvalue="Python.demo015" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.demo014" />
+        <item itemvalue="Python.demo015" />
         <item itemvalue="Python.demo013" />
         <item itemvalue="Python.demo012" />
         <item itemvalue="Python.demo011" />
@@ -294,7 +338,7 @@
       <workItem from="1577347504938" duration="4909000" />
       <workItem from="1577414697536" duration="5925000" />
       <workItem from="1577524625496" duration="5401000" />
-      <workItem from="1577586386264" duration="1229000" />
+      <workItem from="1577586386264" duration="2169000" />
     </task>
     <task id="LOCAL-00001" summary="to_python and to_url">
       <created>1577421718907</created>
@@ -373,11 +417,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577545655580</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="上下文">
+      <created>1577588396934</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1577588396935</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21726000" />
+    <option name="totallyTimeSpent" value="22666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -397,7 +448,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.28005657" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.27864215" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -457,7 +508,8 @@
     <MESSAGE value="cookie and session" />
     <MESSAGE value="session" />
     <MESSAGE value="session 加强" />
-    <option name="LAST_COMMIT_MESSAGE" value="session 加强" />
+    <MESSAGE value="上下文" />
+    <option name="LAST_COMMIT_MESSAGE" value="上下文" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -981,6 +1033,16 @@
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#52#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo015.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#29#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
