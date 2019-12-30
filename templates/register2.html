@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block contentBlock %}
+
+<form action="" method="post">
+    <label for="">用户名:</label><input type="text" name="username"> <br>
+    <label for="">密码:</label> <input type="text" name="password"> <br>
+    <label for="">确认密码:</label> <input type="text" name="password2"> <br>
+    <input type="submit" value="提交">
+</form>
+    {% for message in get_flashed_messages() %}
+        {{ message }}
+    {% endfor %}
+
+{% endblock %}

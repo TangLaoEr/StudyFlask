@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block contentBlock %}
+    <form action="" method="post">
+{#    自带csrf_token #}
+    {{ form.csrf_token }}
+    {{ form.username.label }}{{ form.username }}
+    {{ form.password.label }}{{ form.password}}
+    {{ form.password2.label }}{{ form.password2}}
+    {{ form.submit}}
+    </form>
+{#    <form action="">#}
+{#        {% for item in form %}#}
+{#            {{ item.label }}-{{ item }}#}
+{#        {% endfor %}#}
+{#    </form>#}
+    {% for message in get_flashed_messages() %}
+        {{ message }}
+    {% endfor %}
+
+{% endblock %}
