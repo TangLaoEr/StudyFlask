@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+
+{% block contentBlock %}
+    {% for item in mylist if item.id != 5 %}
+        {% if loop.index == 1 %}
+            <li style="background-color: orange">{{ item.value }}</li>
+        {% elif loop.index == 2 %}
+            <li style="background-color: green">{{ item.value }}</li>
+        {% endif %}
+    {% endfor %}
+
+{% endblock %}
