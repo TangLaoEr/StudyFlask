@@ -46,7 +46,7 @@ class Student(db.Model):
 	# 名字
 	name = db.Column(db.String(64), unique=True)
 	# 当前学生选修的课程
-	courses = db.relationship('Course', secondary=tb_Stundent_Course)
+	courses = db.relationship('Course', secondary=tb_Stundent_Course, backref="students")
 
 
 
