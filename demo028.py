@@ -49,7 +49,7 @@ class Student(db.Model):
 	courses = db.relationship('Course',
 							  secondary=tb_Stundent_Course,
 							  lazy="dynamic", # 性能相关
-							  backref="students")
+							  backref=db.backref("students", lazy="dynamic"))
 
 """
 不加lazy是列表，里面是具体数据。
@@ -61,6 +61,9 @@ lazy = "dynamic"
 # 如果不指定该值，那么当 student 查询数据之后，courses 就已经有值(已经从Course表里面把数据查询出来了)。
 # 如果指定该值，那么当 student 查询数据之后，courses 并没有具体的值，而只是查询对象
 # 如果只是查询对象，那么就可以在用的时候再去数据库查询，避免不必要的查询操作，影响性能。
+现在只是stu1.courses 这样子节省性能
+
+要是想cou1.students也可以节省性能，可以指定backref = db.backref('students', lazy="dynamic")
 """
 
 
