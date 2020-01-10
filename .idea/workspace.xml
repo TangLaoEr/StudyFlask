@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="541d4d96-8b39-4687-a20c-d40c98855840" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo028.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo029.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +35,7 @@
     <SUITE FILE_PATH="coverage/flask$demo001.coverage" NAME="demo001 Coverage Results" MODIFIED="1578024584258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flask$demo002.coverage" NAME="demo002 Coverage Results" MODIFIED="1577181215449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flask$demo005.coverage" NAME="demo005 Coverage Results" MODIFIED="1577350050096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/flask$demo028.coverage" NAME="demo028 Coverage Results" MODIFIED="1578653719311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask$demo028.coverage" NAME="demo028 Coverage Results" MODIFIED="1578653994678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flask$app.coverage" NAME="app Coverage Results" MODIFIED="1577702213690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/.virtualenvs/flask3/lib/python3.7/site-packages/flask" />
     <SUITE FILE_PATH="coverage/flask$demo025.coverage" NAME="demo025 Coverage Results" MODIFIED="1578379525774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flask$demo007.coverage" NAME="demo007 Coverage Results" MODIFIED="1577414915168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -68,35 +68,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo027.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="71" column="30" selection-end-line="84" />
+            <state relative-caret-position="610">
+              <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo026.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-142">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo025.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+              <folding>
+                <element signature="e#24#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo028.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-365">
+              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo024.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="32" column="48" selection-end-line="68" selection-end-column="23" />
+              <folding>
+                <element signature="e#17#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo028.py">
+        <entry file="file://$PROJECT_DIR$/demo029.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="58" column="29" lean-forward="true" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/flask3/lib/python3.7/site-packages/sqlalchemy/orm/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="99" column="36" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/flask3/lib/python3.7/site-packages/sqlalchemy/orm/relationships.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-806">
-              <caret line="91" column="6" selection-start-line="91" selection-start-column="6" selection-end-line="91" selection-end-column="6" />
+            <state relative-caret-position="15">
+              <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+              <folding>
+                <element signature="e#17#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -164,6 +191,7 @@
         <option value="$USER_HOME$/.virtualenvs/flask3/lib/python3.7/site-packages/sqlalchemy/sql/schema.py" />
         <option value="$PROJECT_DIR$/demo027.py" />
         <option value="$PROJECT_DIR$/demo028.py" />
+        <option value="$PROJECT_DIR$/demo029.py" />
       </list>
     </option>
   </component>
@@ -212,6 +240,9 @@
         <option name="mySdkHome" value="$USER_HOME$/xuni/env3/env3/bin/python3" />
       </console-settings>
     </option>
+  </component>
+  <component name="PyCoverageOptionsProvider">
+    <option name="myUseBundledCoveragePy" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -399,7 +430,7 @@
       <workItem from="1578024165385" duration="874000" />
       <workItem from="1578378019420" duration="8363000" />
       <workItem from="1578490028115" duration="440000" />
-      <workItem from="1578652680601" duration="980000" />
+      <workItem from="1578652680601" duration="2089000" />
     </task>
     <task id="LOCAL-00001" summary="to_python and to_url">
       <created>1577421718907</created>
@@ -625,11 +656,25 @@
       <option name="project" value="LOCAL" />
       <updated>1578386787587</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="sqlalchemy lazy字段">
+      <created>1578653804912</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1578653804912</updated>
+    </task>
+    <task id="LOCAL-00034" summary="sqlalchemy相互lazy">
+      <created>1578654106565</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1578654106565</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48604000" />
+    <option name="totallyTimeSpent" value="49713000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -644,28 +689,28 @@
     <frame x="0" y="23" width="1280" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7324263" visible="true" weight="0.1736672" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7324263" visible="true" weight="0.18497577" />
       <window_info id="Structure" order="1" sideWeight="0.26757368" side_tool="true" weight="0.21243942" />
       <window_info id="Favorites" order="2" sideWeight="0.26757368" side_tool="true" weight="0.21243942" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.32956153" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.37623763" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.36334404" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.36334404" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32956153" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.29278642" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.2926045" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.31672025" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50080776" side_tool="true" weight="0.25241157" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49919224" visible="true" weight="0.25241157" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.18578352" />
+      <window_info anchor="right" id="Database" order="4" weight="0.18578352" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -713,8 +758,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="钩子函数" />
-    <MESSAGE value="make_response函数的使用" />
     <MESSAGE value="cookie and session" />
     <MESSAGE value="session" />
     <MESSAGE value="session 加强" />
@@ -738,7 +781,9 @@
     <MESSAGE value="多对多案例" />
     <MESSAGE value="多对多案例2" />
     <MESSAGE value="多对多案例_反向查询" />
-    <option name="LAST_COMMIT_MESSAGE" value="多对多案例_反向查询" />
+    <MESSAGE value="sqlalchemy lazy字段" />
+    <MESSAGE value="sqlalchemy相互lazy" />
+    <option name="LAST_COMMIT_MESSAGE" value="sqlalchemy相互lazy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -755,7 +800,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/demo028.py</url>
-          <line>97</line>
+          <line>100</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
@@ -776,12 +821,7 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>stu1.courses</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>stu1.courses.all()</expression-string>
+        <expression-string>course1.students.all()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -791,7 +831,12 @@
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>course1.students.all()</expression-string>
+        <expression-string>stu1.courses</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>stu1.courses.all()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -825,13 +870,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/li.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo018.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1090,16 +1128,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo024.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-492">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#17#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/flask3/lib/python3.7/site-packages/flask/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
@@ -1152,34 +1180,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo025.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
-          <folding>
-            <element signature="e#24#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo026.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/flask3/lib/python3.7/site-packages/sqlalchemy/sql/schema.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21705">
           <caret line="1472" column="8" selection-start-line="1472" selection-start-column="8" selection-end-line="1472" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo027.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="71" column="30" selection-end-line="84" />
         </state>
       </provider>
     </entry>
@@ -1197,10 +1201,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo026.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-142">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo025.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+          <folding>
+            <element signature="e#24#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo027.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo028.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="58" column="29" lean-forward="true" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+        <state relative-caret-position="-365">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo024.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="32" column="48" selection-end-line="68" selection-end-column="23" />
+          <folding>
+            <element signature="e#17#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo029.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+          <folding>
+            <element signature="e#17#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
